@@ -1,0 +1,150 @@
+.bodyStyle {
+    background-color: #1F4060;
+    animation: slideUp 1.5s ease-in-out forwards;
+   
+}
+@keyframes slideUp {
+    0% {
+      transform: translateY(300px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+}
+
+.navigation {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.navigation a:hover {
+    color: #00CCCC;
+    font-weight: bold;
+
+}
+
+.works{
+    display: inline;
+    color: white;
+    text-decoration: none;
+   margin-right: 20px;
+}
+
+.about{
+    display: inline;
+    color: white;
+    text-decoration: none;
+   margin-right: 20px;
+
+    
+}
+
+.resume{
+    display: inline;
+    color: white;
+    text-decoration: none;
+   margin-right: 20px;
+    
+}
+
+
+.bio {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.profilePhoto {
+    width: 275px;
+    height: 275px;
+    margin-left: 600px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border: 1px white;
+    border: 2px solid white;
+    border-radius: 132px;
+}
+
+.preferredRoles {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.roles {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.rolesHighlight {
+    border-radius: 8px;
+    background-color: #00CCCC;
+}
+
+.techStack {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-top: 100px;
+
+}
+
+.frontendLogos {
+    width: 200px;
+    height: 120px;
+}
+
+.sqlLogo {
+    height: 80px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.wordpressLogo {
+    height: 100px; 
+    margin-left: 15px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 50px;
+    margin-right: 50px;
+    color: #1F4060
+}
+
+.githubIcon {
+    font-size: 40px;
+    color: white;
+    margin-top: 240px;
+    margin-right: 15px;
+}
+
+.githubIcon:hover {
+    color: #6e5494;
+}
+
+.linkedinIcon {
+    font-size: 40px;
+    color: white; 
+    margin-top: 240px;
+}
+
+.linkedinIcon:hover {
+    color: #0072b1 ;
+}
+
+.facebookIcon {
+    font-size: 40px;
+    color: white; 
+    margin-top: 240px;
+    margin-left: 15px;
+}
+
+.facebookIcon:hover {
+    color: #3b5998;
+}

@@ -1,0 +1,107 @@
+.bodyStyle {
+    background-color: #1F4060;
+    animation: slideUp 1.5s ease-in-out forwards;
+   
+}
+@keyframes slideUp {
+    0% {
+      transform: translateY(300px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+}
+
+.navigation {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.navigation a:hover {
+    color: #00CCCC;
+    font-weight: bold;
+
+}
+
+
+.works{
+    display: inline;
+    color: white;
+    text-decoration: none;
+   margin-right: 20px;
+}
+
+.about{
+    display: inline;
+    color: white;
+    text-decoration: none;
+   margin-right: 20px;
+
+    
+}
+
+.resume{
+    display: inline;
+    color: white;
+    text-decoration: none;
+   margin-right: 20px;
+    
+}
+
+
+.resumeIntro {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.resumePdf {
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 50px;
+    margin-right: 50px;
+    color: #1F4060
+}
+
+.githubIcon {
+    font-size: 40px;
+    color: white;
+    margin-top: 240px;
+    margin-right: 15px;
+}
+
+.githubIcon:hover {
+    color: #6e5494;
+}
+
+.linkedinIcon {
+    font-size: 40px;
+    color: white; 
+    margin-top: 240px;
+}
+
+.linkedinIcon:hover {
+    color: #0072b1 ;
+}
+
+.facebookIcon {
+    font-size: 40px;
+    color: white; 
+    margin-top: 240px;
+    margin-left: 15px;
+}
+
+.facebookIcon:hover {
+    color: #3b5998;
+}
